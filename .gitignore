@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Secrets - never commit real tokens or webhook URLs
+.env
+.env.*
+!.env.example
+
+# Runtime / editor history
+.history/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+
+# State backups written by the store when data/state.json is unreadable
+data/*.tmp
+data/*.corrupt-*
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini

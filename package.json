@@ -1,0 +1,28 @@
+{
+  "name": "update-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Quietly watches Roblox games and pings a Discord channel the moment one of them ships an update.",
+  "keywords": [
+    "roblox",
+    "discord",
+    "webhook",
+    "updates",
+    "tracker",
+    "bot"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
+
